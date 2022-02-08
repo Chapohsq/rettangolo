@@ -90,3 +90,7 @@ const rettangolo3 = new RettangoloDue(tl1, br1);
 console.log(rettangolo3.bl, rettangolo3.tr);
 console.log(rettangolo3.perimeter);
 console.log(rettangolo3.area);
+
+
+
+

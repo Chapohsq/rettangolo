@@ -19,4 +19,11 @@ class Triangle{
         const pd2MinusThirdSide = pd2 - this.point3.distanceFrom(this.point1);
         return Math.sqrt(pd2 * pd2MinusFirstSide * pd2MinusSecondSide * pd2MinusThirdSide);
     }
+    constructor (p1 , p2){
+
+        this.p1 = p1;
+        this.p2 = p2;
+    }
+ 
+
 }
